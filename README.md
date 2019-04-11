@@ -6,7 +6,8 @@ FaceRecognition Attendance Marking System
 * Microsoft Cognitive Services
 * dlib
 * SQLite 
-* openpxyl
+* openpxy
+* Anaconda
 
 Uses Micosoft Cognitive Face API to recognizes faces in picture from cctv or clicked from mobile devices (source can varry) and marks the attendace of each student present in picture
 
@@ -23,7 +24,4 @@ spreadsheet.py | makes xls sheet named reports.xlsx
 detect.py | detect faces in test picture and crops and put them in Cropped_faces directory
 identify.py | identify each face and marks the attendance 
 
-### How to run : 
-refer to this ---> [youtube video](https://www.youtube.com/watch?v=FeNasBaXdhg)
 
-Refrence : [This](https://github.com/malharsk27/Autoattendance-Cognitive)
